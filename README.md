@@ -45,13 +45,10 @@ flowchart TD
     E -- Yes --> F[Enter number of pods to scale up];
     F --> G[Pods have been scaled up!]
     E -- No --> H{Do you want to scaldown Pods?};
-    E -- Quit --> Z[Quit the script!];
     G --> H{Do you want to scaldown Pods?};
     H -- Yes --> I[Enter number of pods to scale down to];
     I --> J[Pods have been scaled down!];
-    H -- Quit --> Z[Quit the script!];
     H -- No --> K{Do you want to delete this Deployment?};
     K -- Yes --> L[Deployment Deleted];
     K -- No --> Z[Quit the script!];
-    K -- Quit --> Z[Quit the script!];
 ```
