@@ -57,7 +57,7 @@ flowchart TD
 
 ## Screenshots of Deployment
 - Screenshot for Scale Up deployment
-![alt text](https://i.ibb.co/ypvjQZ0/Techhub2.png)
+![alt text](./images/Techhub2.png)
 
 - Screenshot for Scale Down deployment
-![alt text](https://i.ibb.co/LngN1Dx/techhub2-1.png)
+![alt text](./images/techhub2.1.png)
