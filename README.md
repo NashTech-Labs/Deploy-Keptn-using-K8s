@@ -37,5 +37,5 @@ bash main.sh
 ## Flow of Deployment:
 ```mermaid
 flowchart TD
-    A[main.sh executed!!] --> B[Deploy keptn rc with (default 3 replicas)];
+    A[main.sh executed!!] --> B{Check if pre-requisites are installed?};
 ```
