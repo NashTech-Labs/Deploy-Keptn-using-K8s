@@ -27,7 +27,7 @@ kubectl delete -f keptn-rc.yaml
 ```
 **Note** Also there is a file main.sh that does all the above steps for you :)
 
-### Executions steps
+## Executions steps
 Just execute the main.sh file using this command. Rest script will handle everything relaxed
 
 ```
@@ -50,6 +50,13 @@ flowchart TD
     I --> J[Pods have been scaled down!];
     H -- No --> K{Do you want to delete this Deployment?};
     J --> K{Do you want to delete this Deployment?};
-    K -- Yes --> L[Deployment Deleted];
+    K -- Yes --> L[Deployment Deleted!];
     K -- No --> Z[Script Ended Without Deleting Deployment!];
 ```
+
+## Screenshots of Deployment
+- Screenshot for Scale Up deployment
+![alt text](https://i.ibb.co/ypvjQZ0/Techhub2.png)
+
+- Screenshot for Scale Down deployment
+![alt text](https://i.ibb.co/LngN1Dx/techhub2-1.png)
