@@ -29,7 +29,7 @@ kubectl delete -f keptn-rc.yaml
 **Note** Also there is a file main.sh that does all the above steps for you :)
 
 ## Executions steps
-Just execute the main.sh file using this command. Rest script will handle everything relaxed
+Just execute the main.sh file using this command. Rest script will handle everything :relaxed:
 
 ```
 bash main.sh
