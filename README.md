@@ -49,6 +49,7 @@ flowchart TD
     H -- Yes --> I[Enter number of pods to scale down to];
     I --> J[Pods have been scaled down!];
     H -- No --> K{Do you want to delete this Deployment?};
+    J --> K{Do you want to delete this Deployment?};
     K -- Yes --> L[Deployment Deleted];
     K -- No --> Z[Quit the script!];
 ```
