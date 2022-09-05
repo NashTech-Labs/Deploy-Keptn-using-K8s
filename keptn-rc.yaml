@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+#contains 2 things object name and label
+  name: keptn-rc
+
+spec:
+#contains no. of replicas and pods spec
+  replicas: 3
+  selector:
+    app: keptn-app
+  
+  template:
+  #pods spec
+    metadata:
+      name: keptn-pod
+      labels:
+        app: keptn-app
+    
+    spec:
+      containers:
+      - name: keptn-container
+        image: gardnera/thekindkeptn:0.0.15
+        ports:
+        - containerPort: 80
