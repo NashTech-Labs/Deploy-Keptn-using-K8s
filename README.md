@@ -38,5 +38,8 @@ bash main.sh
 ```mermaid
 flowchart TD
     A[main.sh executed!!];
-    A --> B[Check if pre-requisites are installed?];
+    A --> B[Enter Number of pods to create for Keptn];
+    B --> C[Enter Count];
+    C --> D[Keptn deployed];
+    D --> E{Do you want to scale up Pods?};
 ```
