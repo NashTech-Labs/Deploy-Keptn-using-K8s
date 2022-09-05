@@ -51,5 +51,5 @@ flowchart TD
     H -- No --> K{Do you want to delete this Deployment?};
     J --> K{Do you want to delete this Deployment?};
     K -- Yes --> L[Deployment Deleted];
-    K -- No --> Z[Quit the script!];
+    K -- No --> Z[Script Ended Without Deleting Deployment!];
 ```
