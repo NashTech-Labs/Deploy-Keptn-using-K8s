@@ -42,4 +42,10 @@ flowchart TD
     B --> C[Enter Count];
     C --> D[Keptn deployed];
     D --> E{Do you want to scale up Pods?};
+    E -- Yes --> F[Enter number of pods to scale up];
+    F --> G[Pods have been scaled up!]
+    E -- No --> H{Do you want to scaldown Pods?};
+    H -- Yes --> I[Enter number of pods to scale down to];
+    
+
 ```
