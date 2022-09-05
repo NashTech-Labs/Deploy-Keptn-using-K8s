@@ -1,4 +1,5 @@
-# TechHub2-DeployKeptnUsingKeptn
+# Deploy-Keptn-Using-K8s
+The Keptn project began as a way to assist enterprises in adopting cloud-native strategies for either cutting-edge microservice applications or long-standing monoliths. This ecosystem has been evolving since its inception, focusing on robust continuous delivery with automated testing, quality gates, and auto-remediation capabilities. It now has over 50.
 
 ## Pre-Requisites:
 Kubctl with atleast one node should be present. OR Minikube should be installed.
