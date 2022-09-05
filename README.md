@@ -26,7 +26,7 @@ kubectl scale rc keptn-rc --replicas=1
 ```
 kubectl delete -f keptn-rc.yaml
 ```
-**Note** Also there is a file main.sh that does all the above steps for you :)
+**Note** Also there is a file main.sh that does all the above steps for you :relaxed:
 
 ## Executions steps
 Just execute the main.sh file using this command. Rest script will handle everything :relaxed:
