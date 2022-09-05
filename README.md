@@ -37,5 +37,6 @@ bash main.sh
 ## Flow of Deployment:
 ```mermaid
 flowchart TD
-    A[main.sh executed!!] --> B{Check if pre-requisites are installed?};
+    A[main.sh executed!!];
+    A --> B[Check if pre-requisites are installed?];
 ```
