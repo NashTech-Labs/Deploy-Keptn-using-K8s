@@ -45,7 +45,8 @@ flowchart TD
     E -- Yes --> F[Enter number of pods to scale up];
     F --> G[Pods have been scaled up!]
     E -- No --> H{Do you want to scaldown Pods?};
+    G --> H{Do you want to scaldown Pods?};
     H -- Yes --> I[Enter number of pods to scale down to];
-    
+
 
 ```
